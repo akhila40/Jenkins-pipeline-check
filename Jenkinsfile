@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'echo "Iam Deploying the image in the Kubernets" '
+                sh 'echo "Iam Deploying the image in the K8s" '
             }
         }
     }
